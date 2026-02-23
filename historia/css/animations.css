@@ -1,0 +1,9 @@
+
+
+@import url('story-theme.css');
+
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+.fade-in { animation: fadeIn var(--transition) ease-in-out; }
+
+.hover-lift { transition: transform var(--transition); }
+.hover-lift:hover { transform: translateY(-3px); }

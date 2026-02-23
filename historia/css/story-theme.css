@@ -1,0 +1,13 @@
+
+
+@import url('colores.css');
+
+:root {
+  --fondo: #0b2540;
+  --boton: #1e6fb3;
+  --texto: #e6f3ff;
+  --font-primary: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  --space-md: 1rem;
+  --radius: 6px;
+  --transition: 200ms ease-in-out;
+}
