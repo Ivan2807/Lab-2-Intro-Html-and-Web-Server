@@ -1,0 +1,6 @@
+:root{
+    --bueno: #4CAF50;     /* Verde para eventos positivos */
+    --malo: #f44336;      /* Rojo para eventos negativos */
+    --neutro: #ff9800;    /* Naranja para eventos neutros */
+}
+
