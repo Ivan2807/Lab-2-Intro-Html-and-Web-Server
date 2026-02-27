@@ -1,6 +1,4 @@
-:root {
-    --transition: 1s;
-}
+
 
 @keyframes fadeIn {
     from {
@@ -11,15 +9,28 @@
     }
 }
 
-.fade-in { 
-    opacity: 0; 
-    animation: fadeIn var(--transition) ease-in-out forwards; 
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn var(--transicion-lento) ease-in-out forwards;
 }
 
 .hover-lift {
-    transition: transform 0.3s ease-out;
+    transition: transform var(--transicion-normal) ease-out;
 }
 
 .hover-lift:hover { 
     transform: translateY(-3px); 
+}
+
+.pulse {
+    animation: pulse 1.5s infinite ease-in-out;
 }
